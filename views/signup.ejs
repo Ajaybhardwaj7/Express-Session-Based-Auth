@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SignUp</title>
+	<% include partials/head.ejs %>
+</head>
+<body>
+	<div class = 'container'>
+		<h1>Sign Up</h1>
+		<form action="/signup" method="POST">
+				<input type="text" placeholder="name" name="username" min=3/><br/><br/>
+				<input type="text" placeholder="password" name="password" min=10/><br/><br/>
+				<button type="submit">Submit</button>
+		</form>
+	</div>
+</body>
+</html>

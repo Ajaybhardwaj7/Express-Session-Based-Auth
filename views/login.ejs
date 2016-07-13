@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<% include partials/head.ejs %>
+</head>
+<body>  
+		<div class = 'container'>
+			<h1>Express Auth Session Management</h1><br/><br/><br/>
+			<h1>Login</h1>
+				
+				<form action="/login" method="POST">
+					<input type="text" placeholder="name" name="username" min=3/><br/><br/>
+					<input type="text" placeholder="password" name="password" min=10/><br/><br/>
+					<button type="submit">Submit</button>
+				</form><br/>
+				<b><a href="/signup">SignUp</a></b>
+		</div><br/><br/><br/>
+		<h3>This is an example of session based authentication using session-express and mongo DB store. </h3>
+</body>
+</html>
