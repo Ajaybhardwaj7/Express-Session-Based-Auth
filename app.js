@@ -11,7 +11,7 @@ var session = require('express-session');
 var Mongostore = require('connect-mongo')(session);
 var flash = require('express-flash');
 
-
+    
 var app = express();
 
 // view engine setup
