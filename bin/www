@@ -16,8 +16,8 @@ var port = normalizePort(process.env.PORT || '3000');
 var server = {};
 
 //Establishing the mongoose db connection
-//var connection = mongoose.connect('mongodb://localhost:27017/sampleDB').connection;
-var connection = mongoose.connect('mongodb://ajaybhardwaj7:baadshah7@ds021994.mlab.com:21994/sample').connection;
+var connection = mongoose.connect('mongodb://localhost:27017/sampleDB').connection;
+
 
 global.dbInstance =  connection;
 
